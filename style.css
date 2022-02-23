@@ -39,11 +39,11 @@ main {
 }
 
 header {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 header h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   color: var(--clr-primary-2);
 }
 
@@ -56,7 +56,7 @@ section {
   padding: 30px;
   border-radius: 8px;
   box-shadow: var(--sh-ligh);
-  max-width: 40%;
+  width: 620px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,7 +69,6 @@ section .pic-container {
   height: 145px;
   border-radius: 100%;
   background-position: center;
-  background-image: url("./images/person-1_rfzshl.jpg");
   background-size: cover;
   position: relative;
   box-shadow: 6px -6px 0 0 var(--clr-primary-3);
@@ -147,4 +146,44 @@ section #btn4:hover {
 
 section #btn4:active {
   transform: scale(0.9);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--clr-primary-2);
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.68);
+}
+footer a i {
+  color: red;
+  animation: animate 1s ease-in-out 0s infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  25% {
+    transform: scale(1.4);
+    opacity: 1;
+  }
+  75% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.4);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  section {
+    width: 80vw;
+  }
 }
