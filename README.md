@@ -1,12 +1,20 @@
 # Reviews
 
-Made a Reviews using Vinilla JavaScript and using FontAwsome;
-Responsive Design with unit Relatives and media query
+Made a Reviews using Vinilla JavaScript
 
+
+## Screenshots
+
+![App Screenshot1](https://github.com/FarshadJanmohammadi/images/blob/main/review.jpg?raw=true)
+
+
+## Demo Online
+
+https://lucid-hodgkin-6105db.netlify.app
 
 ## Authors
 
-- [@FarshadJanmohammadi](https://www.github.com/farshadjanmohammadi)
+- [Farshad Janmohammadi](https://www.FarshadJanmohammadi.ir)
 
 ## Color Reference
 
@@ -23,11 +31,6 @@ Responsive Design with unit Relatives and media query
 ## Fonts:
 "Roboto" and "Open Sans"
 
-## Demo
-
-Insert gif or link to demo:
-https://lucid-hodgkin-6105db.netlify.app
-
 
 ## 🚀 About Me
 I'm a Front-end web developer with advanced skills in all stages of web development. Full familiarity in the process of user interface, testing and troubleshooting. Specialist in the design, installation, testing and maintenance of web systems. Has a diverse set of programming skills. Skilled in:
@@ -43,6 +46,7 @@ With the ability to carry out projects individually and in groups.
 
 ## 🛠 Skills
 
-HTML, CSS, JavaScript(ES6) ,JQuery, ReactJS, Redux, Typescript, Sass, Bootstrap, Git, GraphQL 
+HTML, CSS, JavaScript(ES6) ,JQuery, ReactJS, Redux, Next, MaterialUI, Typescript, Sass, Bootstrap, Git, TailWind
+
 
 
